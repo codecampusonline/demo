@@ -10,7 +10,7 @@ import Footer from '../components/Footer';
 
 const Router = () => {
   return (
-    <BrowserRouter basename="/learning">
+    <BrowserRouter basename="/demo">
       <AppRoutes />
     </BrowserRouter>
   );
