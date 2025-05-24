@@ -6,4 +6,7 @@ export default defineConfig({
   base:"/demo",
   
   plugins: [react()],
+  server: {
+    historyApiFallback: true, // enable SPA fallback
+  }
 })
